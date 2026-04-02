@@ -1,0 +1,32 @@
+Week 2 
+# Week 2 – Classical Ciphers
+Topic
+This week I learned about classical encryption methods, mainly the Caesar cipher and Playfair cipher.
+
+## What I Did
+I decrypted a Caesar cipher using a known key (15) and found the plaintext.
+
+I also worked with an unknown key using Python (pycipher) and discovered that:
+"knuprdv" → "BELGIUM" (key = 9)
+ 
+I practiced both encryption and decryption using Python scripts.
+
+I also learned how the Playfair cipher works using a keyword ("program") and decrypted a message step by step.
+ 
+
+ 
+My Understanding
+The Caesar cipher shifts letters by a fixed number. It is simple but not secure.
+
+The Playfair cipher is more complex because it encrypts pairs of letters and uses a matrix, making it harder to break than Caesar.
+
+Difficulties
+I found it difficult to understand how the Playfair cipher works, especially the rules for rows, columns, and letter pairs. It was confusing at first, but after practicing step by step, I understood the pattern.
+
+ Reflection
+
+The most difficult concept this week was the Playfair cipher. It was hard to understand how to split letters into pairs and apply different rules depending on their position. I improved by practicing examples step by step.
+
+Compared to Caesar cipher, Playfair is more secure because it uses pairs of letters instead of single letters. However, both are still weak compared to modern encryption like AES.
+
+A possible attack on Caesar cipher is brute force, which always works because of the small key space. Playfair can be attacked using frequency analysis, but it is harder because it works with pairs instead of single letters.
